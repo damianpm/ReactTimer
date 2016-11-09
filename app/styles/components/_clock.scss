@@ -1,5 +1,5 @@
 .clock {
-  align-items:center;
+  align-items: center;
   background-color: $clock-bg-color;
   border: 2px solid $clock-border-color;
   border-radius: 50%;
@@ -8,10 +8,10 @@
   justify-content: center;
   margin: 4rem auto;
   width: 14rem;
+}
 
-  &-text {
-    color: $clock-text-color;
-    font-size: 2.25rem;
-    font-weight:300;
-  }
+.clock-text {
+  color: $clock-text-color;
+  font-size: 2.25rem;
+  font-weight: 300;
 }
